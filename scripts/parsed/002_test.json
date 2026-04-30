@@ -1,0 +1,79 @@
+{
+  "lesson_number": 5,
+  "topic": "Spring is here",
+  "level": "A2",
+  "segments": [
+    {
+      "type": "narrator_en",
+      "text": "Welcome to lesson five of PolishPod. In this lesson you will learn to talk about spring weather, flowers, and plan outdoor activities with a friend. You will hear a conversation between a man and a woman."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Listen to the following conversation."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Dzień dobry! Jaka piękna pogoda dzisiaj."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, jest ciepło i słońce świeci."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty już kwitną w parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna. Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer. A ty?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, chodźmy!"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Now let us break down what you heard. You will hear each phrase in Polish, I will explain it, and then you will have a chance to say it yourself."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman said: it is warm. In Polish, it is warm is:"
+    }
+  ]
+}

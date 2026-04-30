@@ -1,0 +1,1445 @@
+{
+  "lesson_number": 5,
+  "topic": "Spring is here",
+  "level": "A2",
+  "segments": [
+    {
+      "type": "narrator_en",
+      "text": "Welcome to lesson five of PolishPod. In this lesson you will learn to talk about spring weather, flowers, and plan outdoor activities with a friend. You will also learn a very natural Polish expression for saying you feel like doing something. Listen carefully to the following conversation between a man and a woman meeting on a spring morning in Warsaw."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Dzień dobry! Jaka piękna pogoda dzisiaj."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, jest ciepło i słońce świeci. Pogoda jest idealna."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia. Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, a w parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer. A ty?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa. Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Tak, chodźmy!"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Now let us break down what you heard. You will hear each phrase in Polish, I will explain it, and then you will have a chance to say it yourself. Do not worry if it takes a moment — that pause is for you."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman said: it is warm. In Polish, it is warm is:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Jest ciepło. Jest means it is. Ciepło means warm. Now say it: it is warm."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "She also said: the sun is shining. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Słońce świeci. Słońce means sun. Świeci means is shining. Say it: the sun is shining."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How do you say: it is warm?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "And: the sun is shining?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "She then said: the weather is perfect. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Pogoda jest idealna."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Pogoda jest idealna. Pogoda means weather. Idealna means perfect or ideal. You already know jest means is. Say it: the weather is perfect."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Pogoda jest idealna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How do you say: it is warm?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The weather is perfect?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Pogoda jest idealna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The sun is shining?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Good. The man said: nature is waking up to life. This is a very common and natural Polish expression for springtime. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Przyroda budzi się do życia. Przyroda means nature. Budzi się means is waking up — it is a reflexive verb, which means the action refers back to the subject. Do życia means to life. The whole expression means: nature is waking up to life. Polish speakers use this phrase every spring. Say it now."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Say it again: nature is waking up to life."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How do you say: the weather is perfect?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Pogoda jest idealna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Nature is waking up to life?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "It is warm?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman then added: in the park, tulips and daffodils are already blooming. Listen to this sentence carefully."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "W parku już kwitną tulipany i żonkile. W parku means in the park. Już means already. Kwitną means are blooming. Tulipany means tulips. Żonkile means daffodils. Say it: in the park, tulips and daffodils are already blooming."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Say it once more."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Nature is waking up to life?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "In the park, tulips and daffodils are already blooming?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The sun is shining?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman said: spring is really beautiful. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Wiosna jest naprawdę piękna. Wiosna means spring. Piękna means beautiful. Naprawdę means really. Say it: spring is really beautiful."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "She then asked: what do you want to do today? In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Co chcesz dzisiaj robić. Co means what. Chcesz means you want. Dzisiaj means today. Robić means to do. Say it: what do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Nature is waking up to life?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "In the park, tulips and daffodils are already blooming?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Spring is really beautiful?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "What do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman answered: I want to go for a walk. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Chcę iść na spacer. Chcę means I want. Iść na spacer means to go for a walk. Say it: I want to go for a walk."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The man then said: I feel like playing tennis. This uses a very important Polish construction. Instead of chcę, he said mam ochotę, which means I feel like, or I am in the mood for something. Listen carefully."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Mam ochotę grać w tenisa. Mam ochotę means I feel like. Grać means to play. W tenisa means tennis — notice that tenisa is in the accusative case after w when talking about playing a sport. So: I feel like playing tennis. Polish speakers use mam ochotę constantly when suggesting activities. It sounds warmer and more natural than chcę in social situations. Say it: I feel like playing tennis."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Say it once more."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How do you say: I want to go for a walk?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I feel like playing tennis?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "What do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "He also suggested they could ride bikes. We can also ride bikes is:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Możemy też jeździć na rowerze. Możemy means we can. Też means also. Jeździć na rowerze means to ride a bike. The verb jeździć is used for repeated or habitual movement, like cycling or driving. Say it: we can also ride bikes."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Say it again: we can also ride bikes."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I feel like playing tennis?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "We can also ride bikes?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I want to go for a walk?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "In the park, tulips and daffodils are already blooming?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Finally, the woman said: great idea, let us go to the park. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Świetny pomysł means great idea. Świetny means great or brilliant. Pomysł means idea. And chodźmy do parku — chodźmy means let us go, do parku means to the park. Say the whole thing: great idea, let us go to the park."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Say it again."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "We can also ride bikes?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Great idea, let us go to the park?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I feel like playing tennis?"
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Now a full review. Try to say each phrase before you hear the answer. Take your time and say it out loud."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "It is warm."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The sun is shining."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The weather is perfect."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Pogoda jest idealna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Nature is waking up to life."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "In the park, tulips and daffodils are already blooming."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Spring is really beautiful."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "What do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I want to go for a walk."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I feel like playing tennis."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "We can also ride bikes."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Great idea, let us go to the park."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Now let us mix the order. Answer as quickly as you can."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "The weather is perfect."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Pogoda jest idealna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I feel like playing tennis."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Nature is waking up to life."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I want to go for a walk."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "In the park, tulips and daffodils are already blooming."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "W parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Great idea, let us go to the park."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "It is warm."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "We can also ride bikes."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The sun is shining."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Spring is really beautiful."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "What do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Nature is waking up to life."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I feel like playing tennis."
+    },
+    {
+      "type": "pause",
+      "seconds": 8
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Excellent work. Now listen to the full conversation one final time. Try to understand every phrase before it is translated."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Dzień dobry! Jaka piękna pogoda dzisiaj."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, jest ciepło i słońce świeci. Pogoda jest idealna."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Przyroda budzi się do życia. Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, a w parku już kwitną tulipany i żonkile."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Chcę iść na spacer. A ty?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Mam ochotę grać w tenisa. Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Tak, chodźmy!"
+    },
+    {
+      "type": "pause",
+      "seconds": 3
+    },
+    {
+      "type": "narrator_en",
+      "text": "You have completed lesson five. Today you learned ten phrases. It is warm — jest ciepło. The sun is shining — słońce świeci. The weather is perfect — pogoda jest idealna. Nature is waking up to life — przyroda budzi się do życia. In the park, tulips and daffodils are already blooming — w parku już kwitną tulipany i żonkile. Spring is really beautiful — wiosna jest naprawdę piękna. What do you want to do today — co chcesz dzisiaj robić. I want to go for a walk — chcę iść na spacer. I feel like playing tennis — mam ochotę grać w tenisa. And great idea, let us go to the park — świetny pomysł, chodźmy do parku. Remember: mam ochotę is one of the most natural ways to suggest doing something in Polish. Use it often. In the next lesson you will learn to talk about the weather forecast and suggest more spring activities. Do widzenia."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    }
+  ]
+}

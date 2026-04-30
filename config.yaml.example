@@ -1,0 +1,10 @@
+elevenlabs_api_key: "YOUR_ELEVENLABS_API_KEY"
+voices:
+  polish_man: "VOICE_ID_POLISH_MAN"
+  polish_woman: "VOICE_ID_POLISH_WOMAN"
+  narrator_en: "VOICE_ID_NARRATOR_EN"
+elevenlabs_model: "eleven_multilingual_v2"
+preview:
+  polish_man: "pl-PL-MarekNeural"
+  polish_woman: "pl-PL-ZofiaNeural"
+  narrator_en: "en-US-AndrewNeural"

@@ -1,0 +1,62 @@
+{
+  "lesson_number": 1,
+  "topic": "At the pharmacy",
+  "level": "A2",
+  "segments": [
+    {
+      "type": "narrator_en",
+      "text": "In this lesson you will learn how to ask for medicine at a pharmacy."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Listen to the following conversation."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Dzień dobry, czy ma pani aspirynę?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, oczywiście. Ile tabletek pan potrzebuje?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Poproszę dwadzieścia tabletek."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Proszę bardzo. Czy potrzebuje pan coś jeszcze?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Nie, dziękuję. Ile to kosztuje?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Osiem złotych."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Do widzenia."
+    }
+  ]
+}

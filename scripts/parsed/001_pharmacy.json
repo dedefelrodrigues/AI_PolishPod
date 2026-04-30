@@ -1,0 +1,29 @@
+{
+  "lesson_number": 1,
+  "topic": "At the pharmacy",
+  "level": "A2",
+  "segments": [
+    {
+      "type": "narrator_en",
+      "text": "In this lesson you will learn how to ask for medicine at a Polish pharmacy."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Listen to the following conversation."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Dzień dobry. Czy ma pani coś na ból głowy?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Oczywiście. Mamy ibuprofen lub paracetamol. Co pan woli?"
+    }
+  ]
+}

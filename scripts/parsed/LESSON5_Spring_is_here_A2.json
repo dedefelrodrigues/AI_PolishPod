@@ -1,0 +1,789 @@
+{
+  "lesson_number": 5,
+  "topic": "Spring is here",
+  "level": "A2",
+  "segments": [
+    {
+      "type": "narrator_en",
+      "text": "Welcome to lesson five of PolishPod. In this lesson you will learn to talk about spring weather, flowers, and plan outdoor activities with a friend. You will hear a conversation between a man and a woman."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Listen to the following conversation."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Dzień dobry! Jaka piękna pogoda dzisiaj."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, jest ciepło i słońce świeci."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty już kwitną w parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna. Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer. A ty?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, chodźmy!"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Now let us break down what you heard. You will hear each phrase in Polish, I will explain it, and then you will have a chance to say it yourself."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman said: it is warm. In Polish, it is warm is:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Jest ciepło. Jest means it is. Ciepło means warm. Now say it: it is warm."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "She also said: the sun is shining. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Słońce świeci. Słońce means sun. Świeci means is shining. Say it: the sun is shining."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How do you say: it is warm?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "And: the sun is shining?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The man said: the flowers are already blooming in the park. The flowers are blooming is:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty kwitną."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Kwiaty kwitną. Kwiaty means flowers. Kwitną means are blooming. Say it: the flowers are blooming."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty kwitną."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How do you say: it is warm?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The flowers are blooming?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty kwitną."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The sun is shining?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman said: spring is really beautiful. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Wiosna jest naprawdę piękna. Wiosna means spring. Piękna means beautiful. Naprawdę means really. Say it: spring is really beautiful."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "She then asked: what do you want to do today? In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Co chcesz dzisiaj robić. Co means what. Chcesz means you want. Robić means to do. Say it: what do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How would you say: the flowers are blooming?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty kwitną."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Spring is really beautiful?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "What do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The man answered: I want to go for a walk. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Chcę iść na spacer. Chcę means I want. Iść na spacer means to go for a walk. Say it: I want to go for a walk."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The woman suggested they could also ride bikes. We can also ride bikes is:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Możemy też jeździć na rowerze. Możemy means we can. Też means also. Jeździć na rowerze means to ride a bike. Say it: we can also ride bikes."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "How do you say: I want to go for a walk?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "We can also ride bikes?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "What do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I want to go for a walk?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Finally, the man said: let us go to the park. In Polish:"
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "Chodźmy do parku. Chodźmy means let us go. Do parku means to the park. Say it: let us go to the park."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "We can also ride bikes?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Let us go to the park?"
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Now a full review. Try to say each phrase before you hear the answer."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "narrator_en",
+      "text": "It is warm."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Jest ciepło."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The sun is shining."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Słońce świeci."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "The flowers are blooming."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty kwitną."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Spring is really beautiful."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "What do you want to do today?"
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "I want to go for a walk."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "We can also ride bikes."
+    },
+    {
+      "type": "pause",
+      "seconds": 6
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Let us go to the park."
+    },
+    {
+      "type": "pause",
+      "seconds": 5
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chodźmy do parku."
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "Excellent. Now listen to the full conversation one more time."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Dzień dobry! Jaka piękna pogoda dzisiaj."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, jest ciepło i słońce świeci."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Kwiaty już kwitną w parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Wiosna jest naprawdę piękna. Co chcesz dzisiaj robić?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Chcę iść na spacer. A ty?"
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Możemy też jeździć na rowerze."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "man",
+      "text": "Świetny pomysł. Chodźmy do parku."
+    },
+    {
+      "type": "dialogue_pl",
+      "speaker": "woman",
+      "text": "Tak, chodźmy!"
+    },
+    {
+      "type": "pause",
+      "seconds": 2
+    },
+    {
+      "type": "narrator_en",
+      "text": "You have completed lesson five. Today you learned to say: it is warm, the sun is shining, the flowers are blooming, spring is really beautiful, what do you want to do today, I want to go for a walk, we can also ride bikes, and let us go to the park. In the next lesson you will learn to talk about the weather forecast and suggest playing sports in the park. Do widzenia."
+    },
+    {
+      "type": "pause",
+      "seconds": 1
+    }
+  ]
+}
