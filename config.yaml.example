@@ -4,6 +4,13 @@ voices:
   polish_woman: "VOICE_ID_POLISH_WOMAN"
   narrator_en: "VOICE_ID_NARRATOR_EN"
 elevenlabs_model: "eleven_multilingual_v2"
+podcast:
+  title: "AI_PolishPod"
+  description: "Personal Polish language audio lessons using spaced repetition and the listen-and-repeat method."
+  author: "Your Name"
+  language: "pl"
+  github_pages_url: "https://yourusername.github.io/AI_PolishPod"
+  cover_image_url: ""
 preview:
   polish_man: "pl-PL-MarekNeural"
   polish_woman: "pl-PL-ZofiaNeural"
