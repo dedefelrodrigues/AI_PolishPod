@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>AI_PolishPod</title>
+    <description>Personal Polish language audio lessons using spaced repetition and the listen-and-repeat method.</description>
+    <language>pl</language>
+    <itunes:author>André</itunes:author>
+    <link>https://dedefelrodrigues.github.io/AI_PolishPod</link>
+    <item>
+      <title>Lesson 1 – at the pharmacy</title>
+      <guid isPermaLink="false">https://dedefelrodrigues.github.io/AI_PolishPod/episodes/001_at_the_pharmacy.mp3</guid>
+      <description>Lesson 1 — at the pharmacy. AI_PolishPod spaced repetition Polish lesson.</description>
+      <enclosure url="https://dedefelrodrigues.github.io/AI_PolishPod/episodes/001_at_the_pharmacy.mp3"
+                 length="372863"
+                 type="audio/mpeg"/>
+      <itunes:duration>00:00:23</itunes:duration>
+      <pubDate>Wed, 29 Apr 2026 21:09:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lesson 5 – Spring is here (A2)</title>
+      <guid isPermaLink="false">https://dedefelrodrigues.github.io/AI_PolishPod/episodes/LESSON5_Spring_is_here_A2.mp3</guid>
+      <description>Lesson 5 — Spring is here. Level A2. AI_PolishPod spaced repetition Polish lesson.</description>
+      <enclosure url="https://dedefelrodrigues.github.io/AI_PolishPod/episodes/LESSON5_Spring_is_here_A2.mp3"
+                 length="8265604"
+                 type="audio/mpeg"/>
+      <itunes:duration>00:08:36</itunes:duration>
+      <pubDate>Wed, 29 Apr 2026 21:26:39 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
