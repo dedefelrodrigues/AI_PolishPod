@@ -37,6 +37,54 @@ def render_segment_elevenlabs(text: str, voice_id: str, output_path: str, config
         f.write(resp.content)
 
 
+def render_segment_google(text: str, voice_name: str, output_path: str, config: dict) -> None:
+    from google.cloud import texttospeech
+    import google.auth
+
+    creds_file = config["google"].get("credentials_file")
+    if creds_file:
+        import os as _os
+        _os.environ.setdefault("GOOGLE_APPLICATION_CREDENTIALS", creds_file)
+
+    client = texttospeech.TextToSpeechClient()
+    language_code = "-".join(voice_name.split("-")[:2])  # e.g. "pl-PL" from "pl-PL-Neural2-D"
+    synthesis_input = texttospeech.SynthesisInput(text=text)
+    voice = texttospeech.VoiceSelectionParams(
+        language_code=language_code,
+        name=voice_name,
+    )
+    audio_config = texttospeech.AudioConfig(
+        audio_encoding=texttospeech.AudioEncoding.MP3
+    )
+    response = client.synthesize_speech(
+        input=synthesis_input, voice=voice, audio_config=audio_config
+    )
+    with open(output_path, "wb") as f:
+        f.write(response.audio_content)
+
+
+def render_segment_azure(text: str, voice_name: str, output_path: str, config: dict) -> None:
+    import azure.cognitiveservices.speech as speechsdk
+
+    speech_config = speechsdk.SpeechConfig(
+        subscription=config["azure_speech_key"],
+        region=config["azure_speech_region"],
+    )
+    speech_config.speech_synthesis_voice_name = voice_name
+    speech_config.set_speech_synthesis_output_format(
+        speechsdk.SpeechSynthesisOutputFormat.Audio16Khz128KBitRateMonoMp3
+    )
+    synthesizer = speechsdk.SpeechSynthesizer(
+        speech_config=speech_config, audio_config=None
+    )
+    result = synthesizer.speak_text_async(text).get()
+    if result.reason != speechsdk.ResultReason.SynthesizingAudioCompleted:
+        print(f"Azure TTS error: {result.reason} — {result.cancellation_details.error_details if result.reason == speechsdk.ResultReason.Canceled else ''}")
+        sys.exit(1)
+    with open(output_path, "wb") as f:
+        f.write(result.audio_data)
+
+
 async def _render_edge_tts(text: str, voice: str, output_path: str) -> None:
     import edge_tts
     await edge_tts.Communicate(text, voice).save(output_path)
@@ -53,19 +101,35 @@ def render_segment(
     voice_role: str,
     output_path: str,
     config: dict,
-    preview: bool = False,
+    provider: str = "preview",
 ) -> None:
-    if preview:
+    if provider == "preview":
         render_segment_preview(text, voice_role, output_path, config)
-    else:
+    elif provider == "azure":
+        voice_name = config["azure"][voice_role]
+        render_segment_azure(text, voice_name, output_path, config)
+    elif provider == "google":
+        voice_name = config["google"][voice_role]
+        render_segment_google(text, voice_name, output_path, config)
+    else:  # elevenlabs
         voice_id = config["voices"][voice_role]
         render_segment_elevenlabs(text, voice_id, output_path, config)
 
 
+def _key_suffix_for(voice_role: str, config: dict, provider: str) -> str:
+    if provider == "preview":
+        return voice_role
+    if provider == "azure":
+        return config["azure"][voice_role]
+    if provider == "google":
+        return config["google"][voice_role]
+    return config["voices"][voice_role]
+
+
 def generate_audio(
-    segments: list[dict], config: dict, preview: bool = False
+    segments: list[dict], config: dict, provider: str = "preview"
 ) -> list[str | None]:
-    subdir = "preview" if preview else "elevenlabs"
+    subdir = provider
     os.makedirs(os.path.join("cache", subdir), exist_ok=True)
 
     tts_segments = [
@@ -75,23 +139,22 @@ def generate_audio(
         1 for _, seg in tts_segments
         if os.path.exists(_cache_path(
             subdir, seg["text"],
-            config["voices"][_voice_role_for_segment(seg)] if not preview else _voice_role_for_segment(seg),
+            _key_suffix_for(_voice_role_for_segment(seg), config, provider),
         ))
     )
     to_render = len(tts_segments) - cached
-    print(f"  Segments: {len(tts_segments)} total, {cached} cached, {to_render} to render")
-
     paths: list[str | None] = [None] * len(segments)
-    bar = tqdm(total=len(tts_segments), unit="seg", desc="Generating audio")
+    bar = tqdm(total=len(tts_segments), unit="seg", desc="Generating audio",
+               bar_format="{desc}: {percentage:3.0f}%|{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]")
+    tqdm.write(f"  Segments: {len(tts_segments)} total, {cached} cached, {to_render} to render")
     for i, seg in tts_segments:
         text = seg["text"]
         voice_role = _voice_role_for_segment(seg)
-        key_suffix = config["voices"][voice_role] if not preview else voice_role
+        key_suffix = _key_suffix_for(voice_role, config, provider)
         path = _cache_path(subdir, text, key_suffix)
 
         if not os.path.exists(path):
-            bar.set_postfix_str(text[:40])
-            render_segment(text, voice_role, path, config, preview)
+            render_segment(text, voice_role, path, config, provider)
         paths[i] = path
         bar.update(1)
 

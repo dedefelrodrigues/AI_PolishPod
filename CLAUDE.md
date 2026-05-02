@@ -8,10 +8,16 @@ AI_PolishPod is a personal Polish language learning tool that generates Pimsleur
 
 ```bash
 # Preview (free, local edge-tts voices — fast)
-python main.py --script scripts/LESSON_005_v2.ppl
+python3 main.py --script scripts/LESSON_005_v2.ppl
 
-# Final (ElevenLabs API — costs credits)
-python main.py --script scripts/LESSON_005_v2.ppl --final
+# Final with Google Chirp3-HD (~$0.16/lesson, best quality)
+python3 main.py --script scripts/LESSON_005_v2.ppl --provider google
+
+# Final with Azure Neural (free tier 500k chars/mo)
+python3 main.py --script scripts/LESSON_005_v2.ppl --provider azure
+
+# Final with ElevenLabs (credits exhausted as of 2026-05-02)
+python3 main.py --script scripts/LESSON_005_v2.ppl --provider elevenlabs
 ```
 
 Output lands in `lessons/`. Preview files are prefixed with `PREVIEW_`.
@@ -29,18 +35,21 @@ Output lands in `lessons/`. Preview files are prefixed with `PREVIEW_`.
 ## Project structure
 
 ```
-main.py              # CLI entry point
-parse_lesson.py      # .ppl → .json parser
-generate_audio.py    # TTS rendering + cache logic
-build_lesson.py      # ffmpeg concat + duration probe
-config.yaml          # ElevenLabs API key + voice IDs + edge-tts preview voices
-requirements.txt     # requests, PyYAML, edge-tts
-scripts/             # lesson source files (.ppl)
-  parsed/            # parsed output (.json) — auto-generated from .ppl
-lessons/             # rendered MP3 output
+main.py                  # CLI entry point
+parse_lesson.py          # .ppl → .json parser
+generate_audio.py        # TTS rendering + cache logic
+build_lesson.py          # ffmpeg concat + duration probe
+config.yaml              # API keys + voice IDs for all providers
+google_credentials.json  # Google service account key (gitignored)
+requirements.txt         # Python dependencies
+scripts/                 # lesson source files (.ppl)
+  parsed/                # parsed output (.json) — auto-generated from .ppl
+lessons/                 # rendered MP3 output
 cache/
-  preview/           # edge-tts renders (keyed by MD5 of text + voice_role)
-  elevenlabs/        # ElevenLabs renders (keyed by MD5 of text + voice_id)
+  preview/               # edge-tts renders
+  google/                # Google Chirp3-HD renders
+  azure/                 # Azure Neural renders
+  elevenlabs/            # ElevenLabs renders
 ```
 
 ## Script format (.ppl)
@@ -77,10 +86,29 @@ WOMAN: Jest ciepło.
 
 ## TTS modes
 
-- **Preview** (default): uses `edge-tts` with Microsoft Neural voices — free, no internet account needed, fast. Cached under `cache/preview/`.
-- **Final** (`--final`): uses ElevenLabs `eleven_multilingual_v2` model with the voice IDs in `config.yaml`. Costs API credits. Cached under `cache/elevenlabs/`.
+| Provider | Flag | Quality | Cost | Cache dir |
+|---|---|---|---|---|
+| edge-tts | (default) | Good | Free | `cache/preview/` |
+| Google Chirp3-HD | `--provider google` | Best | ~$16/1M chars | `cache/google/` |
+| Azure Neural | `--provider azure` | Good | 500k free/mo | `cache/azure/` |
+| ElevenLabs | `--provider elevenlabs` | Excellent | Credits (exhausted) | `cache/elevenlabs/` |
 
-Cache keys include the voice ID (ElevenLabs) or voice role (preview), so swapping a voice in `config.yaml` correctly invalidates cached audio.
+The `--final` flag is a legacy alias for `--provider elevenlabs`.
+
+Cache keys include the voice name/ID, so swapping a voice in `config.yaml` correctly invalidates cached audio.
+
+### Google credentials
+Place `google_credentials.json` (service account key) in the project root. It is gitignored.
+
+### Estimating Google cost before rendering
+```bash
+python3 -c "
+import re
+chars = sum(len(l.split(':', 1)[1].strip()) for l in open('scripts/YOUR.ppl')
+            if re.match(r'(NARRATOR|MAN|WOMAN|RECALL):', l.strip()))
+print(f'{chars:,} chars  ~\${chars/1e6*16:.4f}')
+"
+```
 
 ## Dependencies
 
@@ -156,4 +184,18 @@ Each phrase should be recalled at increasing time gaps after first exposure:
 
 ## Config
 
-`config.yaml` contains the ElevenLabs API key and voice IDs. Do not commit this file to a public repository.
+`config.yaml` contains API keys and voice IDs for all providers. Do not commit this file to a public repository. `google_credentials.json` is also gitignored.
+
+### Changing voices
+Update the relevant section in `config.yaml` (`google:`, `azure:`, `preview:`). The cache key includes the voice name, so any change automatically invalidates cached audio for that provider.
+
+Available Polish voices can be listed at runtime:
+```bash
+# Google
+python3 -c "
+import os; os.environ['GOOGLE_APPLICATION_CREDENTIALS']='google_credentials.json'
+from google.cloud import texttospeech
+c = texttospeech.TextToSpeechClient()
+for v in c.list_voices(language_code='pl-PL').voices: print(v.name, v.ssml_gender)
+"
+```

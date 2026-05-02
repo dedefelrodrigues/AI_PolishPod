@@ -3,3 +3,5 @@ PyYAML
 edge-tts
 mutagen
 tqdm
+azure-cognitiveservices-speech
+google-cloud-texttospeech

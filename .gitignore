@@ -4,3 +4,4 @@ lessons/
 __pycache__/
 *.pyc
 .DS_Store
+google_credentials.json

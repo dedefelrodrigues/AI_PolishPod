@@ -72,7 +72,9 @@ def format_duration(ms: int) -> str:
 def main():
     parser = argparse.ArgumentParser(description="Generate an AI_PolishPod audio lesson")
     parser.add_argument("--script", required=True, help="Path to lesson script (.ppl or .json)")
-    parser.add_argument("--final", action="store_true", help="Use ElevenLabs TTS instead of local edge-tts")
+    parser.add_argument("--final", action="store_true", help="Use ElevenLabs TTS (legacy flag, same as --provider elevenlabs)")
+    parser.add_argument("--provider", choices=["preview", "elevenlabs", "azure", "google"], default=None,
+                        help="TTS provider (default: preview)")
     args = parser.parse_args()
 
     config = load_config()
@@ -89,12 +91,12 @@ def main():
     print(f"Segments: {len(script['segments'])}")
     print()
 
-    preview = not args.final
-    audio_paths = generate_audio(script["segments"], config, preview=preview)
+    provider = args.provider or ("elevenlabs" if args.final else "preview")
+    audio_paths = generate_audio(script["segments"], config, provider=provider)
 
     print()
     output_stem = args.script
-    if preview:
+    if provider == "preview":
         base = os.path.splitext(os.path.basename(args.script))[0]
         output_stem = os.path.join(os.path.dirname(args.script), f"PREVIEW_{base}")
     output_path, duration_ms = build_lesson(script, script["segments"], audio_paths, output_stem)
