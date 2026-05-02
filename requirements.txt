@@ -2,3 +2,4 @@ requests
 PyYAML
 edge-tts
 mutagen
+tqdm

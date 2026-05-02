@@ -57,9 +57,9 @@ def parse_ppl(path: str) -> dict:
             segments.append({"type": "recall_prompt", "text": value})
         elif tag == "PAUSE":
             try:
-                seconds = int(value)
+                seconds = float(value)
             except ValueError:
-                print(f"Error: line {lineno}: PAUSE must be an integer, got '{value}'")
+                print(f"Error: line {lineno}: PAUSE must be a number, got '{value}'")
                 sys.exit(1)
             segments.append({"type": "pause", "seconds": seconds})
 

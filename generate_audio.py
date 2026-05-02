@@ -4,6 +4,7 @@ import os
 import sys
 
 import requests
+from tqdm import tqdm
 
 
 def _voice_role_for_segment(segment: dict) -> str:
@@ -67,26 +68,32 @@ def generate_audio(
     subdir = "preview" if preview else "elevenlabs"
     os.makedirs(os.path.join("cache", subdir), exist_ok=True)
 
-    paths: list[str | None] = []
-    for seg in segments:
-        if seg["type"] == "pause":
-            paths.append(None)
-            continue
+    tts_segments = [
+        (i, seg) for i, seg in enumerate(segments) if seg["type"] != "pause"
+    ]
+    cached = sum(
+        1 for _, seg in tts_segments
+        if os.path.exists(_cache_path(
+            subdir, seg["text"],
+            config["voices"][_voice_role_for_segment(seg)] if not preview else _voice_role_for_segment(seg),
+        ))
+    )
+    to_render = len(tts_segments) - cached
+    print(f"  Segments: {len(tts_segments)} total, {cached} cached, {to_render} to render")
 
+    paths: list[str | None] = [None] * len(segments)
+    bar = tqdm(total=len(tts_segments), unit="seg", desc="Generating audio")
+    for i, seg in tts_segments:
         text = seg["text"]
         voice_role = _voice_role_for_segment(seg)
-        # ElevenLabs key includes voice_id so swapping a voice invalidates cache.
-        # Preview key uses voice_role (edge-tts voice is fixed in config).
         key_suffix = config["voices"][voice_role] if not preview else voice_role
         path = _cache_path(subdir, text, key_suffix)
 
         if not os.path.exists(path):
-            label = "Preview " if preview else "Rendering"
-            print(f"  {label}: {seg['type']} — {text[:60]}")
+            bar.set_postfix_str(text[:40])
             render_segment(text, voice_role, path, config, preview)
-        else:
-            print(f"  Cached:    {seg['type']} — {text[:60]}")
+        paths[i] = path
+        bar.update(1)
 
-        paths.append(path)
-
+    bar.close()
     return paths
