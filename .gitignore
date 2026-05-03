@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 .DS_Store
 google_credentials.json
+.env

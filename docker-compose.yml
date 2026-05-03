@@ -1,0 +1,19 @@
+services:
+  polishpod-api:
+    image: polishpod-api:latest
+    build: .
+    ports:
+      - "8765:8000"   # host port 8765 → container port 8000
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./google_credentials.json:/app/google_credentials.json:ro
+      - polishpod-cache:/app/cache
+      - polishpod-lessons:/app/lessons
+    environment:
+      - POLISHPOD_API_KEY=${POLISHPOD_API_KEY}
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/google_credentials.json
+    restart: unless-stopped
+
+volumes:
+  polishpod-cache:
+  polishpod-lessons:
